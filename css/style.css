@@ -5,7 +5,10 @@
     box-sizing: border-box;
     /* outline: 1px solid rgb(252, 252, 252); */
 }
-
+html{
+    font-family: DM Sans;
+    font-size: 62.5%;
+}
 :root {
     --Bitcoin_Orange: #F7931A;
     --Soft_orange: #FFE9D5;
@@ -22,7 +25,7 @@
 }
 
 body {
-    font-family: DM Sans;
+    
 }
 
 .container {
