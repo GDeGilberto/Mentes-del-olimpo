@@ -87,8 +87,8 @@ html{
     position: absolute;
     width: 230px;
     height: 48px;
-    left: calc(50% - 165px/2 - 16px);
-    top: calc(50% - 60px/2);
+    left: calc(50% - 240px/2);
+    top: 330px;
     background: var(--off_white);
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border-radius: 4px;
