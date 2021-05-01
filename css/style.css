@@ -133,6 +133,27 @@ span i.fas {
     border-radius: 6px;
 }
 
+.seccion-tasas-de-cambio img{
+    width: 192px;
+    height: 192px;
+}
+.tasas-de-cambio-text{
+    margin: 24px 0px 17px 0px;
+}
+.seccion-tasas-de-cambio{
+    background-color: var(--Warm_white);
+    padding: 64px 16px;
+}
+.seccion-tasas-de-cambio h2{
+    font-size: 24px;
+    margin: 24px 0px 17px 0px;
+}
+.seccion-tasas-de-cambio p{
+    color: var(--Grey);
+    font-size: 14px;
+}
+
+
 @media screen and (max-width: 800px) {
     .hero__texts h1 {
         font-size: 2rem;
