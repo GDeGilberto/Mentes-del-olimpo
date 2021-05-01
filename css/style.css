@@ -19,13 +19,10 @@ html{
     --Grey: #BABABA;
     --off_white: #FAF8F7;
     --just_white: #FFFFFF;
+
     --paddingSecciones: 60px 0;
     --padding-container: 80px 0;
     --marginElementos: 40px;
-}
-
-body {
-    
 }
 
 .container {
@@ -107,6 +104,33 @@ span i.fas {
     margin: 0.5rem 0 0 0;
     position: relative;
     left: 6px;
+}
+
+.centro{
+    text-align: center;
+}
+.seccion-de-ayuda{
+    background-color: var(--Warm_black);
+    padding: 64px 16px;
+}
+.seccion-de-ayuda h2,h3{
+    color: var(--just_white);
+}
+.seccion-de-ayuda h2{
+    font-size: 24px;
+}
+.seccion-de-ayuda h3{
+    font-size: 18px;
+}
+.seccion-de-ayuda p{
+    color: var(--Grey);
+    font-size: 14px;
+}
+.seccion-de-ayuda .bloque{
+    background-color: var(--Warm_black1);
+    margin-bottom: 16px;
+    padding: 22px 16px;
+    border-radius: 6px;
 }
 
 @media screen and (max-width: 800px) {
