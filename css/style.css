@@ -152,6 +152,22 @@ span i.fas {
     color: var(--Grey);
     font-size: 14px;
 }
+.seccion-conocelo-hoy{
+    height: 387px;
+    min-width: 320px;
+    background-image: url(../img/bitcoinbaby\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seccion-conocelo-hoy h2{
+    padding-top: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just_white);
+}
 
 
 @media screen and (max-width: 800px) {
