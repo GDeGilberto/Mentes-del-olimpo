@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* outline: 1px solid rgb(252, 252, 252); */
 }
 html{
     font-family: DM Sans;
@@ -24,6 +23,7 @@ html{
     --padding-container: 80px 0;
     --marginElementos: 40px;
 }
+/*********************************************/
 .header--container{
     background: linear-gradient(207.8deg, var(--Warm_black) 16.69%, var(--Bitcoin_Orange) 100%);
     position: relative;
