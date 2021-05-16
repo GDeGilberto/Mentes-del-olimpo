@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -117,7 +118,7 @@ html{
     margin: 24px 0px 17px 0px;
 }
 .seccion-tasas-de-cambio{
-    background-color: var(--Warm_white);
+    background-color: var(--off_white);
     padding: 64px 16px;
 }
 .seccion-tasas-de-cambio h2{
@@ -128,35 +129,96 @@ html{
     color: var(--Grey);
     font-size: 14px;
 }
+
 /***Sección monedas***/
-.tabla-monedas h3{
-    color: #F7931A;
-    font-size: 16px;
+.seccion-monedas{
+    background-color: var(--off_white);
+    padding-bottom: 64px;
 }
-.tabla-comisiones h3{
-    color: #1A9AF7;
-    font-size: 16px;
+.seccion-monedas h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-align: center;
+    color: var(--Bitcoin_Orange);
 }
-.seccion-monedas table{
-    border: black 1px;
-    width: 197px;
-    height: 159px;
+.seccion-monedas p{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    width: 115px;
+    height: 31px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: var(--Soft_orange);
 }
-.seccion-monedas table th{
-    color: #BABABA;
-    font-size: 16px;
+.table__container{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 70%;
+    margin: 0 auto 16px auto;
+    min-width: 226px;
+    max-width: 500px;
+    border-radius: 8px;
+    background-color: var(--just_white);
+}
+.table__container tr{
+    height: 100%;
+    width: 100%;
+}
+.data--tittle{
+    width: 50%;
     padding: 10px 12px;
+    margin: 0 10px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: left;
+    color: var(--Grey);
+    line-height: 1.9rem;
 }
-.seccion-monedas table td{
-    color: #BABABA;
-    font-size: 12px;
-    padding: 10px 12px;
+.data--value{
+    width: 50%;
+    padding: 11px 12px;
+    margin: 0 10px;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    text-align: center;
+    color: #757575;
 }
-.Icon{
-    width: 3px;
-    height: 3px;
+.comisiones h3{
+    color: var(--Secundary_blue);
 }
-/*********************************************/
+.arrow__down{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url("../img/arrow-down.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.arrow__up{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url("../img/arrow-up.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.arrow__right{
+    background-image: url("../img/arrow-right.svg");
+}
+
+
 .seccion-conocelo-hoy{
     height: 387px;
     min-width: 320px;
