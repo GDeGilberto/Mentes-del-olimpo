@@ -18,8 +18,7 @@ html{
     --off_white: #FAF8F7;
     --just_white: #FFFFFF;
 }
-/***********************************/
-
+/*********************************************/
 .header--container{
     background: linear-gradient(207.8deg, var(--Warm_black) 16.69%, var(--Bitcoin_Orange) 100%);
     position: relative;
@@ -54,6 +53,7 @@ html{
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
+    margin-bottom: 50px;
     color: var(--Soft_orange);
 }
 .header--buttom{
@@ -105,4 +105,158 @@ html{
     margin-bottom: 16px;
     padding: 22px 16px;
     border-radius: 6px;
+}
+/***Sección tasas de cambio***/
+.seccion-tasas-de-cambio img{
+    background: linear-gradient(207, 8deg, #201E1C 16.69%, #F7931A 100%);
+    width: 192px;
+    height: 192px;
+}
+.tasas-de-cambio-text{
+    margin: 24px 0px 17px 0px;
+}
+.seccion-tasas-de-cambio{
+    background-color: var(--off_white);
+    padding: 64px 16px;
+}
+.seccion-tasas-de-cambio h2{
+    font-size: 24px;
+    margin: 24px 0px 17px 0px;
+}
+.seccion-tasas-de-cambio p{
+    color: var(--Grey);
+    font-size: 14px;
+}
+
+/***Sección monedas***/
+.seccion-monedas{
+    background-color: var(--off_white);
+    padding-bottom: 64px;
+}
+.seccion-monedas h3{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-align: center;
+    color: var(--Bitcoin_Orange);
+}
+.seccion-monedas p{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+    width: 115px;
+    height: 31px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: var(--Soft_orange);
+}
+.table__container{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    width: 70%;
+    margin: 0 auto 16px auto;
+    min-width: 226px;
+    max-width: 500px;
+    border-radius: 8px;
+    background-color: var(--just_white);
+}
+.table__container tr{
+    height: 100%;
+    width: 100%;
+}
+.data--tittle{
+    width: 50%;
+    padding: 10px 12px;
+    margin: 0 10px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: left;
+    color: var(--Grey);
+    line-height: 1.9rem;
+}
+.data--value{
+    width: 50%;
+    padding: 11px 12px;
+    margin: 0 10px;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    text-align: center;
+    color: #757575;
+}
+.comisiones h3{
+    color: var(--Secundary_blue);
+}
+.arrow__down{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url("../img/arrow-down.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.arrow__up{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url("../img/arrow-up.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.arrow__right{
+    background-image: url("../img/arrow-right.svg");
+}
+
+
+.seccion-conocelo-hoy{
+    height: 387px;
+    min-width: 320px;
+    background-image: url(../img/bitcoinbaby\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seccion-conocelo-hoy h2{
+    padding-top: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just_white);
+}
+
+footer{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--Bitcoin_Orange);
+}
+footer a{
+    font-size: 1.4rem;
+    color: var(--just_white);
+    text-decoration: none;
+    line-height: 25px;
+}
+footer li{
+    list-style: none;
+}
+footer img{
+    display: block;
+    margin: 0 auto;
+}
+footer p{
+    margin-top: 8px;
+    font-size: .8rem;
+    color: var(--just_white);
 }
