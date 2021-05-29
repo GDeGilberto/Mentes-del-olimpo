@@ -167,11 +167,10 @@ h3 {
     position: relative;
     justify-content: center;
     justify-items: center;
-    width: 130px;
+    width: 160px;
     margin: 0 auto;
     font-size: 1.2rem;
     padding: 8px;
-    text-align: center;
     border-radius: 8px;
     background-color: var(--Soft_orange);
 }
