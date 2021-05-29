@@ -244,6 +244,9 @@ h3 {
 
 
 .seccion-conocelo-hoy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 387px;
     min-width: 320px;
     background-image: url(../img/bitcoinbaby\ 1.png);
@@ -253,8 +256,6 @@ h3 {
 }
 
 .seccion-conocelo-hoy h2 {
-    padding-top: 60px;
-    text-align: center;
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 2.6rem;

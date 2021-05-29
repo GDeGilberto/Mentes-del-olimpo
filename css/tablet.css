@@ -24,3 +24,10 @@
 .centro p{
   font-size: 2rem;
 }
+
+.seccion-conocelo-hoy{
+  height: 300px;
+}
+.seccion-conocelo-hoy h2{
+  font-size: 4rem;
+}
