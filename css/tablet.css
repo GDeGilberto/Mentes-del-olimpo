@@ -1,3 +1,17 @@
+.header--container{
+  height: 440px;
+}
+.header--container h1{
+  font-size: 4rem;
+  line-height: 4.2rem;
+}
+.header--container p{
+  margin-bottom: 102px;
+  font-size: 2rem;
+}
+.header--buttom{
+  top: 415px;
+}
 .seccion-monedas{
   display: flex;
 }
