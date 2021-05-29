@@ -45,3 +45,16 @@
 .seccion-conocelo-hoy h2{
   font-size: 4rem;
 }
+
+footer li{
+  line-height: 2.4rem;
+}
+footer a{
+  font-size: 2rem;
+}
+footer img{
+  width: 105px;
+}
+footer p{
+  font-size: 1.8rem;
+}
