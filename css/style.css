@@ -98,7 +98,10 @@ html {
     background-color: var(--Warm_black);
     padding: 64px 16px;
 }
-
+.seccion-de-ayuda p {
+    color: var(--Grey);
+    font-size: 1.4rem;
+}
 .seccion-de-ayuda h2,
 h3 {
     color: var(--just_white);
