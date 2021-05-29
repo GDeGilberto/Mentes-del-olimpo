@@ -110,9 +110,12 @@ h3 {
     font-size: 1.8rem;
 }
 
-.seccion-de-ayuda p {
+.seccionMoneda__tablas p{
     color: var(--Grey);
     font-size: 1.4rem;
+}
+.comisiones p{
+    background-color: var(--Secundary_blue);
 }
 
 .seccion-de-ayuda .bloque {
@@ -171,6 +174,9 @@ h3 {
     text-align: center;
     border-radius: 8px;
     background-color: var(--Soft_orange);
+}
+.comisiones p{
+    background-color: var(--Soft_blue);
 }
 .table__container{
     position: relative;
