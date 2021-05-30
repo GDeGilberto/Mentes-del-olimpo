@@ -52,6 +52,9 @@
 .main-plans-container h2+p{
   font-size: 2rem;
 }
+.plans-container--slider{
+  justify-content: center;
+}
 footer li{
   line-height: 2.4rem;
 }
